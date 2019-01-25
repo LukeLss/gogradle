@@ -4,4 +4,13 @@ plugins {
 
 golang {
     packagePath = 'github.com/LukeLss/gogradle.git' // 欲构建项目的go import path，注意不是本地目录的路径！
+
+    buildMode = 'REPRODUCIBLE'
+}
+
+dependencies {
+    golang {
+        build 'github.com/jmoiron/sqlx'
+        test 'github.com/jmoiron/sqlx'
+    }
 }
