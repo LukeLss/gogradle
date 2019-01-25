@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.gogradle/project_gopath/src/github.com/LukeLss/gogradle.git" vcs="Git" />
   </component>
 </project>
